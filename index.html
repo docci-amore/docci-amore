@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Great+Vibes&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <!-- hero.css será adicionado pela Maria (Semana 2) -->
+
+  <title>Docci Amore</title>
+</head>
+
+<body>
+
+  <!-- Barra de anúncio — navbar.css (Pedro) -->
+  <div class="barra-anuncio">
+    🎂 <strong>Encomende com antecedência!</strong> Faça seu pedido pelo Instagram:
+    <a href="https://instagram.com/confeitaria_docci_amore" target="_blank">@confeitaria_docci_amore</a>
+  </div>
+
+  <!-- Navbar — navbar.css (Pedro) -->
+  <header class="navbar">
+    <div class="navbar-inner">
+
+      <!-- Logo -->
+      <a href="#inicio" class="navbar-logo">
+        <span class="logo-cursiva">Docci Amore</span>
+        <span class="logo-sub">Confeitaria Artesanal</span>
+      </a>
+
+      <!-- Botão mobile -->
+      <button class="navbar-toggle" onclick="toggleMenu()" aria-label="Abrir menu">☰</button>
+
+      <!-- Menu -->
+      <ul class="navbar-menu" id="navbar-menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato" class="btn-destaque">Contato</a></li>
+      </ul>
+
+    </div>
+
+    <!-- Linha decorativa dourada -->
+    <div class="navbar-divider"></div>
+  </header>
+
+  <main>
+
+    <!-- Hero / Início — hero.css (Maria) — Semana 2 -->
+    <section id="inicio">
+      <!-- Maria vai desenvolver esta seção com banner, título em cursiva e botão de chamada -->
+    </section>
+
+  </main>
+
+  <!-- Script menu mobile -->
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('navbar-menu');
+      menu.classList.toggle('aberto');
+    }
+  </script>
+
+</body>
+
+</html>
