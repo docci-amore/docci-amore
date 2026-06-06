@@ -1,0 +1,1 @@
+powershell -Command "Set-Content -Path 'css\rodape.css' -Value (Get-Clipboard)"
